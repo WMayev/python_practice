@@ -42,4 +42,8 @@ match random_number: # Get random_number and change the answer variable depends 
   case default: 
     answer = "Error"
 
+# Print to output asker's name and their question
+print(name + " asks: " + question) 
 
+# Print to output Magic 8-Ball's answer
+print("Magic 8-Ball's answer: " + answer)
