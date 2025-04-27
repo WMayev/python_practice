@@ -12,3 +12,5 @@ import random
 
 random_number = random.randint(1, 9)
 # Generate a random number between 1 (inclusive) and 9 (inclusive)
+
+print(random_number)
