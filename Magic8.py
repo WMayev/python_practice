@@ -43,7 +43,10 @@ match random_number: # Get random_number and change the answer variable depends 
     answer = "Error"
 
 # Print to output asker's name and their question
-print(name + " asks: " + question) 
+# print(name + " asks: " + question) 
 
 # Print to output Magic 8-Ball's answer
-print("Magic 8-Ball's answer: " + answer)
+# print("Magic 8-Ball's answer: " + answer)
+
+question_with_name = name + " asks: " + question
+question_without_name = "Question: " + question
