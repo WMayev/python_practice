@@ -20,7 +20,7 @@ I decided to use a match-case statement for practice,
 but I could also use an if/elif/else statement
 '''
 
-match random_number: 
+match random_number: # Get random_number and change the answer variable depends on its value
   case 1:
     answer = "Yes - definitely"
   case 2: 
@@ -41,3 +41,5 @@ match random_number:
     answer = "Very doubtful"
   case default: 
     answer = "Error"
+
+
