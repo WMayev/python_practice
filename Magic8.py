@@ -20,3 +20,24 @@ I decided to use a match-case statement for practice,
 but I could also use an if/elif/else statement
 '''
 
+match random_number: 
+  case 1:
+    answer = "Yes - definitely"
+  case 2: 
+    answer = "It is decidedly so"
+  case 3: 
+    answer = "Without a doubt"
+  case 4: 
+    answer = "Reply hazy, try again"
+  case 5: 
+    answer = "Ask again later"
+  case 6: 
+    answer = "Better not tell you now"
+  case 7: 
+    answer = "My sources say no"
+  case 8: 
+    answer = "Outlook not so good"
+  case 9:
+    answer = "Very doubtful"
+  case default: 
+    answer = "Error"
