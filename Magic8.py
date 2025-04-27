@@ -48,5 +48,16 @@ match random_number: # Get random_number and change the answer variable depends 
 # Print to output Magic 8-Ball's answer
 # print("Magic 8-Ball's answer: " + answer)
 
+''' 
+What if the asker does not provide a name, 
+such that the value of name is an empty string?
+'''
+
 question_with_name = name + " asks: " + question
 question_without_name = "Question: " + question
+
+match name: # Print question to the console depends on name variable
+  case "":
+    print(question_without_name) 
+  case default: 
+    print(question_with_name)
