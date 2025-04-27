@@ -13,4 +13,10 @@ import random
 random_number = random.randint(1, 9)
 # Generate a random number between 1 (inclusive) and 9 (inclusive)
 
-print(random_number)
+# print(random_number)
+
+''' 
+I decided to use a match-case statement for practice, 
+but I could also use an if/elif/else statement
+'''
+
