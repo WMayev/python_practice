@@ -61,3 +61,9 @@ match name: # Print question to the console depends on name variable
     print(question_without_name) 
   case default: 
     print(question_with_name)
+
+
+# What if the question string is empty?
+
+is_question = "Magic 8-Ball's answer: " + answer
+isnt_question = "You have to ask a question!"
