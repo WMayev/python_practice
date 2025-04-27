@@ -5,4 +5,5 @@ question with a different fortune each time it executes.
 
 name = "Eddie"  # Name of person who ask a question
 question = "Will mom buy me a toy?" # Question to ask the Magic 8-Ball
-anser = "" # The Magic 8-Ball's answer
+answer = "" # The Magic 8-Ball's answer
+
