@@ -67,3 +67,9 @@ match name: # Print question to the console depends on name variable
 
 is_question = "Magic 8-Ball's answer: " + answer
 isnt_question = "You have to ask a question!"
+
+match question: # Print answer to the console depends on question variable
+  case "":
+    print(isnt_question)
+  case default: 
+    print(is_question)
